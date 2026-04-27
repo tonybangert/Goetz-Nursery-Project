@@ -2,7 +2,7 @@
 
 An interactive, image-forward catalog of the 39 trees Goetz's Nursery (Hartford, WI) is offering for the 2026 season. Built as a single-page React app, designed for property owners across Southeastern Wisconsin who want to compare trees side-by-side with full specs, pros/cons, and siting guidance before they call the nursery.
 
-> **Live:** _set after first Vercel deploy — see [Deployment](#deployment)_
+> **Live:** https://goetz-nursery.vercel.app
 > **Repo:** https://github.com/tonybangert/Goetz-Nursery-Project
 
 ---
