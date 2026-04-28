@@ -513,7 +513,7 @@ export const trees = [
     cons: ["Deer still browse in harsh winters despite resistance", "Slow to establish—patience needed", "Bagworm susceptibility in WI", "Snow load can split mature plants"] },
 ];
 
-export const categories = ["All", "Deciduous", "Evergreen"];
+export const categories = ["All", "Shade", "Ornamental", "Fruit", "Specimen", "Evergreen"];
 export const sunFilters = ["All Sun", "Full Sun", "Full Sun to Partial Shade"];
 
 export function imagePath(tree) {

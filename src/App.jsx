@@ -28,7 +28,7 @@ export default function App() {
           t.name.toLowerCase().includes(q) ||
           t.baysideNotes.toLowerCase().includes(q) ||
           t.tags.some((tag) => tag.toLowerCase().includes(q));
-        const matchesCategory = category === "All" || t.category === category;
+        const matchesCategory = category === "All" || t.type.startsWith(category);
         const matchesSun = sunFilter === "All Sun" || t.sun === sunFilter;
         return matchesSearch && matchesCategory && matchesSun;
       })
