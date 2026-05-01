@@ -58,12 +58,13 @@ export function TreeDialog({ tree, onClose }) {
                     eager
                     className="absolute inset-0"
                   />
-                  <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-forest-950/75 via-forest-950/15 to-transparent" />
-                  <div className="absolute inset-x-0 bottom-0 px-5 pb-4 sm:px-6 sm:pb-5">
-                    <div className="text-[0.6rem] font-bold uppercase tracking-[0.16em] text-forest-300 sm:text-[0.65rem] sm:tracking-[0.18em]">
+                  {/* Tablet+ only: gradient + title overlay (mobile shows the title in a clean header below the image) */}
+                  <div className="pointer-events-none absolute inset-0 hidden bg-gradient-to-t from-forest-950/75 via-forest-950/15 to-transparent sm:block" />
+                  <div className="absolute inset-x-0 bottom-0 hidden px-6 pb-5 sm:block">
+                    <div className="text-[0.65rem] font-bold uppercase tracking-[0.18em] text-forest-300">
                       {tree.category} · {tree.type}
                     </div>
-                    <h2 className="font-display mt-0.5 text-2xl font-semibold leading-tight text-cream drop-shadow-md sm:mt-1 sm:text-3xl">
+                    <h2 className="font-display mt-1 text-3xl font-semibold leading-tight text-cream drop-shadow-md">
                       {tree.name}
                     </h2>
                   </div>
@@ -76,6 +77,16 @@ export function TreeDialog({ tree, onClose }) {
                       <X className="h-5 w-5" />
                     </button>
                   </Dialog.Close>
+                </div>
+
+                {/* Mobile-only title header — full readable contrast against the white card */}
+                <div className="border-b border-forest-100 px-5 pb-4 pt-5 sm:hidden">
+                  <div className="text-[0.6rem] font-bold uppercase tracking-[0.16em] text-forest-500">
+                    {tree.category} · {tree.type}
+                  </div>
+                  <h2 className="font-display mt-1 text-[1.6rem] font-semibold leading-[1.15] text-forest-900">
+                    {tree.name}
+                  </h2>
                 </div>
 
                 <div className="space-y-5 px-5 py-5 pb-safe sm:px-8 sm:py-6">
