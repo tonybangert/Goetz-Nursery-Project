@@ -90,7 +90,12 @@ Use `bg-forest-700`, `text-forest-300`, `ring-forest-100`, etc. as standard Tail
 
 ## Tree image pipeline
 
-Tree photos are sourced from Wikimedia Commons. Each tree has its own dedicated image at `public/trees/<slug>.jpg`. Two scripts populate the directory:
+Each tree has its own dedicated image at `public/trees/<slug>.jpg`. The site's image contract is **slug-based**, not filename-based — `TreeImage.jsx` builds the URL as `/trees/${tree.slug}.jpg`, so dropping a JPG named after a tree's slug is the only step needed to update its photo.
+
+Sources are mixed:
+
+- **Original Goetz photography** — 18 of 39 trees as of 2026-05-02. These were supplied by the nursery and replace earlier Wikimedia placeholders. Adding more originals is a drop-in replacement: copy the JPG into `public/trees/` with the matching slug filename and commit.
+- **Wikimedia Commons placeholders** — the remaining 21 trees still use CC-licensed reference photos pending original photography. Two scripts manage this fallback set:
 
 ### `scripts/fetch-tree-images.mjs`
 A curated-candidates downloader. For each tree slug, it tries a hand-picked list of Wikimedia filenames (cultivar-specific first, species-level fallbacks). Validates each candidate with a HEAD request — only saves files where `Content-Type: image/*` and size > 8 KB (Wikimedia's 404 page is ~2 KB).
@@ -101,12 +106,12 @@ A search-API fallback. For trees where no curated candidate works, hits the Wiki
 ### Adding a new tree
 
 1. Add the tree object to `src/data/trees.js` with a unique `slug`
-2. Either:
+2. Either drop in an original JPG named `public/trees/<slug>.jpg`, OR:
    - Add a curated entry to `scripts/fetch-tree-images.mjs` and run `node scripts/fetch-tree-images.mjs`, OR
    - Add a search query to `scripts/fetch-tree-images-api.mjs` and run `node scripts/fetch-tree-images-api.mjs`
 3. Verify the new `public/trees/<slug>.jpg` exists and looks correct
 
-Both scripts are idempotent — they skip slugs that already have valid files on disk.
+Both scripts are idempotent — they skip slugs that already have valid files on disk, so they will not overwrite an original photo with a Wikimedia placeholder.
 
 ---
 
@@ -199,6 +204,6 @@ Hartford, WI 53027
 
 ## Credits
 
-Tree photographs courtesy of Wikimedia Commons contributors. Used under their respective Creative Commons licenses for illustrative and educational purposes.
+Original tree photographs (18 of 39 as of 2026-05-02) supplied by Goetz's Nursery and used with permission. Remaining tree photographs courtesy of Wikimedia Commons contributors, used under their respective Creative Commons licenses for illustrative and educational purposes pending original photography.
 
 The Goetz's Nursery logo is the property of Goetz's Nursery and used here with permission.
