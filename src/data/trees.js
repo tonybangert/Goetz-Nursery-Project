@@ -5,7 +5,7 @@
 // Images sourced from Wikimedia Commons (CC-licensed); see public/trees/.
 
 export const trees = [
-  { slug: "autumn-blaze-maple", name: "Autumn Blaze Maple",
+  { slug: "autumn-blaze-maple", imageSource: "ai", name: "Autumn Blaze Maple",
     sizes: ["2-3\"", "3-3½\""], prices: ["$250", "$325"],
     category: "Deciduous", type: "Shade Tree",
     height: "40-55 ft", spread: "30-40 ft",
@@ -18,7 +18,7 @@ export const trees = [
     pros: ["Fast growth—shade in 5-7 years", "Spectacular consistent scarlet fall color", "Tolerates clay and wet soils", "Wind-tolerant for Lake Michigan exposure"],
     cons: ["Brittle wood—storm damage risk in mature trees", "Co-dominant leaders need pruning when young", "Aggressive surface roots can heave nearby pavement", "Overplanted—loses some uniqueness factor"] },
 
-  { slug: "sienna-glen-maple", name: "Sienna Glen Maple",
+  { slug: "sienna-glen-maple", imageSource: "wikimedia", name: "Sienna Glen Maple",
     sizes: ["2-3\""], prices: ["$250"],
     category: "Deciduous", type: "Shade Tree",
     height: "40-50 ft", spread: "30-35 ft",
@@ -31,7 +31,7 @@ export const trees = [
     pros: ["Better branch structure than Autumn Blaze", "More uniform pyramidal habit", "Reliable burgundy-orange fall color", "Less prone to storm damage"],
     cons: ["Slower than Autumn Blaze to fill in", "Less wet-soil tolerant than parent species", "Less widely available at nurseries", "Fall color slightly less brilliant than Autumn Blaze"] },
 
-  { slug: "firefall-maple", name: "Firefall Maple",
+  { slug: "firefall-maple", imageSource: "original", name: "Firefall Maple",
     sizes: ["2-3\""], prices: ["$250"],
     category: "Deciduous", type: "Shade Tree",
     height: "35-40 ft", spread: "20-25 ft",
@@ -44,7 +44,7 @@ export const trees = [
     pros: ["Very cold-hardy (Zone 3)—safe for severe WI winters", "Seedless—no messy samaras to clean up", "Compact upright form fits tight spaces", "Reliable deep red fall color"],
     cons: ["Slower growth than other Freeman maples", "Smaller mature size limits shade coverage", "Less drought tolerant than Autumn Blaze", "Narrower canopy = less shade per tree"] },
 
-  { slug: "autumn-fantasy-maple", name: "Autumn Fantasy Maple",
+  { slug: "autumn-fantasy-maple", imageSource: "wikimedia", name: "Autumn Fantasy Maple",
     sizes: ["2-2½\""], prices: ["$250"],
     category: "Deciduous", type: "Shade Tree",
     height: "40-45 ft", spread: "30-35 ft",
@@ -57,7 +57,7 @@ export const trees = [
     pros: ["Fast growth provides quick shade", "Outstanding deep red fall color", "Tolerates wet/poorly drained spots", "Good for low areas near the lake"],
     cons: ["Inherits silver maple weak wood tendency", "Storm damage risk at maturity", "Surface roots can be invasive", "Can develop chlorosis in alkaline soil"] },
 
-  { slug: "matador-maple", name: "Matador Maple",
+  { slug: "matador-maple", imageSource: "original", name: "Matador Maple",
     sizes: ["2-3\""], prices: ["$250"],
     category: "Deciduous", type: "Shade Tree",
     height: "40-50 ft", spread: "30-40 ft",
@@ -70,7 +70,7 @@ export const trees = [
     pros: ["Stronger branch attachment than Autumn Blaze", "Glossy summer foliage looks premium", "Brilliant fiery red-orange fall display", "Improved structural integrity over older Freemans"],
     cons: ["Less proven long-term than older cultivars", "Premium pricing at most nurseries", "Limited availability—newer introduction", "Still inherits some silver maple weaknesses"] },
 
-  { slug: "celebration-maple", name: "Celebration Maple",
+  { slug: "celebration-maple", imageSource: "wikimedia", name: "Celebration Maple",
     sizes: ["2-2½\""], prices: ["$250"],
     category: "Deciduous", type: "Shade Tree",
     height: "35-45 ft", spread: "15-25 ft",
@@ -83,7 +83,7 @@ export const trees = [
     pros: ["Strong wide branch angles—storm resistant", "Seedless—no cleanup required", "Narrow form ideal for driveways/streets", "Tolerates urban pollution and salt"],
     cons: ["Fall color less dramatic than red Freemans (yellow-orange)", "Narrow shade footprint", "Slower growth than Autumn Blaze", "Less cold-hardy than Firefall"] },
 
-  { slug: "armstrong-maple", name: "Armstrong Maple",
+  { slug: "armstrong-maple", imageSource: "ai", name: "Armstrong Maple",
     sizes: ["2-3\""], prices: ["$225"],
     category: "Deciduous", type: "Shade Tree",
     height: "40-50 ft", spread: "15-20 ft",
@@ -96,7 +96,7 @@ export const trees = [
     pros: ["Very narrow columnar profile—tight spaces", "Lower price point than other Freemans", "Good fall color in cooler WI climates", "Tolerates clay soils"],
     cons: ["Tight crotch angles can split in ice storms", "Less wind-tolerant than rounded forms", "Shape can look stiff/formal in naturalistic settings", "Limited shade coverage from narrow canopy"] },
 
-  { slug: "fall-fiesta-maple", name: "Fall Fiesta Maple",
+  { slug: "fall-fiesta-maple", imageSource: "original", name: "Fall Fiesta Maple",
     sizes: ["2-2½\""], prices: ["$250"],
     category: "Deciduous", type: "Shade Tree",
     height: "50-75 ft", spread: "35-50 ft",
@@ -109,7 +109,7 @@ export const trees = [
     pros: ["Long-lived (100+ years)—legacy tree", "Stunning multi-color simultaneous fall display", "Strong wood—storm resistant", "Tap for maple syrup once mature"],
     cons: ["Slow growth—takes years to establish", "Intolerant of wet/compacted soil", "Sensitive to road salt", "Expensive long-term investment"] },
 
-  { slug: "red-sunset-maple", name: "Red Sunset Maple",
+  { slug: "red-sunset-maple", imageSource: "original", name: "Red Sunset Maple",
     sizes: ["2-2½\""], prices: ["$225"],
     category: "Deciduous", type: "Shade Tree",
     height: "40-50 ft", spread: "30-35 ft",
@@ -122,7 +122,7 @@ export const trees = [
     pros: ["Most reliable red fall color of any maple", "First to turn—extends fall color season", "Fast growth + good structure", "Tolerates wet soils"],
     cons: ["Can develop chlorosis in alkaline/clay soils", "Surface roots in lawns", "Susceptible to leafhoppers and gall mites", "Bark can be thin—sunscald risk on south side"] },
 
-  { slug: "royal-red-maple", name: "Royal Red Maple",
+  { slug: "royal-red-maple", imageSource: "wikimedia", name: "Royal Red Maple",
     sizes: ["2\""], prices: ["$225"],
     category: "Deciduous", type: "Shade Tree",
     height: "35-45 ft", spread: "25-30 ft",
@@ -135,7 +135,7 @@ export const trees = [
     pros: ["Deep purple foliage all season—dramatic focal point", "Stronger color than Crimson King", "Dense shade canopy", "Holds color well in WI summers"],
     cons: ["Norway maple = invasive species concerns", "Heavy shade kills grass beneath", "Shallow aggressive roots compete with everything", "Susceptible to verticillium wilt"] },
 
-  { slug: "state-street-maple", name: "State Street Maple",
+  { slug: "state-street-maple", imageSource: "original", name: "State Street Maple",
     sizes: ["2\""], prices: ["$225"],
     category: "Deciduous", type: "Shade Tree",
     height: "40-50 ft", spread: "20-25 ft",
@@ -148,7 +148,7 @@ export const trees = [
     pros: ["Pest and disease resistant—Miyabe parentage", "Tolerates road salt better than most maples", "Cold-hardy to Zone 4", "Distinctive corky bark adds interest"],
     cons: ["Yellow fall color less dramatic than red maples", "Limited nursery availability", "Slower establishment than Freemans", "Lesser-known—harder to find specimens"] },
 
-  { slug: "emerald-lustre-maple", name: "Emerald Lustre Maple",
+  { slug: "emerald-lustre-maple", imageSource: "wikimedia", name: "Emerald Lustre Maple",
     sizes: ["2-2½\""], prices: ["$225"],
     category: "Deciduous", type: "Shade Tree",
     height: "40-50 ft", spread: "30-40 ft",
@@ -161,7 +161,7 @@ export const trees = [
     pros: ["Exceptionally glossy foliage—premium look", "Tolerates partial shade under canopy edges", "Resistant to leaf scorch", "Strong central leader—good structure"],
     cons: ["Norway maple = potentially invasive in WI", "Heavy shade prevents grass growth", "Aggressive surface roots", "Hybridizes with native species"] },
 
-  { slug: "tulip-tree", name: "Tulip Tree",
+  { slug: "tulip-tree", imageSource: "original", name: "Tulip Tree",
     sizes: ["2-2½\""], prices: ["$250"],
     category: "Deciduous", type: "Specimen Tree",
     height: "60-90 ft", spread: "30-50 ft",
@@ -174,7 +174,7 @@ export const trees = [
     pros: ["Unique tulip-shaped flowers and leaves", "Native species—wildlife value (pollinators)", "Fast growth + golden yellow fall color", "Pyramidal stately form at maturity"],
     cons: ["Requires large property—massive at maturity", "Brittle wood—storm damage risk", "Dislikes wet feet and drought equally", "Aphid drip can stain cars/patios beneath"] },
 
-  { slug: "shademaster-honeylocust", name: "Shademaster Honeylocust",
+  { slug: "shademaster-honeylocust", imageSource: "original", name: "Shademaster Honeylocust",
     sizes: ["2-2½\""], prices: ["$225"],
     category: "Deciduous", type: "Shade Tree",
     height: "35-45 ft", spread: "25-35 ft",
@@ -187,7 +187,7 @@ export const trees = [
     pros: ["Filtered shade—grass grows beneath easily", "Thornless and podless—no maintenance", "Salt and drought tolerant", "Tiny leaflets self-mulch in fall (no raking)"],
     cons: ["Susceptible to honeylocust borer and plant bugs", "Mimosa webworm can defoliate", "Late to leaf out in spring", "Overplanted in Midwest—loses individuality"] },
 
-  { slug: "princeton-elm", name: "Princeton Elm",
+  { slug: "princeton-elm", imageSource: "wikimedia", name: "Princeton Elm",
     sizes: ["2-2½\""], prices: ["$225"],
     category: "Deciduous", type: "Shade Tree",
     height: "50-70 ft", spread: "30-50 ft",
@@ -200,7 +200,7 @@ export const trees = [
     pros: ["Iconic American elm vase shape", "Strong DED resistance—proven cultivar", "Long-lived legacy tree (100+ years)", "Tolerates wet and salty soils"],
     cons: ["DED resistant, not immune—still possible", "Susceptible to elm yellows and elm leaf beetle", "Massive at maturity—needs space", "Premium price for true Princeton stock"] },
 
-  { slug: "new-horizon-elm", name: "New Horizon Elm",
+  { slug: "new-horizon-elm", imageSource: "wikimedia", name: "New Horizon Elm",
     sizes: ["2-2½\""], prices: ["$225"],
     category: "Deciduous", type: "Shade Tree",
     height: "50-70 ft", spread: "30-50 ft",
@@ -213,7 +213,7 @@ export const trees = [
     pros: ["Highest DED resistance among elms", "Excellent wet soil tolerance", "Broader canopy = more shade", "Less prone to phloem necrosis"],
     cons: ["Less classic vase shape than Princeton", "Asian hybrid—less native value", "Can have weaker branch attachments", "Newer cultivar—less long-term track record"] },
 
-  { slug: "autumn-blaze-pear", name: "Autumn Blaze Pear",
+  { slug: "autumn-blaze-pear", imageSource: "wikimedia", name: "Autumn Blaze Pear",
     sizes: ["2-3\""], prices: ["$210"],
     category: "Deciduous", type: "Ornamental Tree",
     height: "25-30 ft", spread: "15-20 ft",
@@ -226,7 +226,7 @@ export const trees = [
     pros: ["Showy white spring bloom + red-purple fall", "Better fire blight resistance than Bradford", "Stronger branching than older Callery cultivars", "Tolerates urban/clay conditions"],
     cons: ["Callery pears are invasive in many states", "Flowers smell unpleasant up close", "Storm damage risk (less than Bradford)", "Can produce viable fruit that spreads"] },
 
-  { slug: "chanticleer-pear", name: "Chanticleer Pear",
+  { slug: "chanticleer-pear", imageSource: "wikimedia", name: "Chanticleer Pear",
     sizes: ["2-2½\""], prices: ["$210"],
     category: "Deciduous", type: "Ornamental Tree",
     height: "25-30 ft", spread: "12-15 ft",
@@ -239,7 +239,7 @@ export const trees = [
     pros: ["Narrowest habit—perfect for tight entries", "Profuse white spring bloom", "Strongest branch structure of Callery pears", "Reliable red-purple fall color"],
     cons: ["Invasive species concern in some regions", "Fishy flower scent up close", "Short-lived (15-25 years typical)", "Banned/restricted in some Midwest states"] },
 
-  { slug: "snow-dance-lilac", name: "Snow Dance Lilac Tree",
+  { slug: "snow-dance-lilac", imageSource: "original", name: "Snow Dance Lilac Tree",
     sizes: ["2-2½\""], prices: ["$210"],
     category: "Deciduous", type: "Ornamental Tree",
     height: "15-20 ft", spread: "10-15 ft",
@@ -252,7 +252,7 @@ export const trees = [
     pros: ["Late June bloom extends lilac season", "More compact than Ivory Silk", "Very cold-hardy (Zone 3)", "Resistant to powdery mildew"],
     cons: ["Less profuse blooms than Ivory Silk", "Newer cultivar—less proven", "Subtle fall color (mostly yellow-green)", "Honey-scent isn't traditional lilac fragrance"] },
 
-  { slug: "ivory-silk-lilac", name: "Ivory Silk Lilac Tree",
+  { slug: "ivory-silk-lilac", imageSource: "original", name: "Ivory Silk Lilac Tree",
     sizes: ["2-2½\""], prices: ["$225"],
     category: "Deciduous", type: "Ornamental Tree",
     height: "20-25 ft", spread: "15-20 ft",
@@ -265,7 +265,7 @@ export const trees = [
     pros: ["Massive creamy-white flower plumes in June", "Cold-hardy to Zone 3", "Pest and disease resistant", "Cinnamon-brown bark adds winter interest"],
     cons: ["Heavy seed pods need cleanup if displeasing", "Subtle fall color", "Honey-scented flowers not classic lilac smell", "Can be slow to establish in first 2 years"] },
 
-  { slug: "redbud-single", name: "Redbud Single Stem",
+  { slug: "redbud-single", imageSource: "wikimedia", name: "Redbud Single Stem",
     sizes: ["2\""], prices: ["$210"],
     category: "Deciduous", type: "Ornamental Tree",
     height: "20-30 ft", spread: "25-35 ft",
@@ -278,7 +278,7 @@ export const trees = [
     pros: ["Stunning pink-magenta spring bloom on bare branches", "Heart-shaped leaves are charming", "Native—wildlife and pollinator value", "Tolerates partial shade"],
     cons: ["Marginal hardiness (Zone 4b/5a)", "Short-lived (20-30 years)", "Susceptible to verticillium wilt and canker", "Late freeze can ruin bloom"] },
 
-  { slug: "redbud-multi", name: "Redbud Multi Stem",
+  { slug: "redbud-multi", imageSource: "original", name: "Redbud Multi Stem",
     sizes: ["6'"], prices: ["$210"],
     category: "Deciduous", type: "Ornamental Tree",
     height: "15-20 ft", spread: "20-25 ft",
@@ -291,7 +291,7 @@ export const trees = [
     pros: ["More naturalistic woodland-edge look", "Multiple trunks = more bloom surface", "Beautiful winter silhouette", "Better recovery if one stem dies"],
     cons: ["Same Zone 4b/5a marginal hardiness", "Multi-stem form can be messier looking", "Harder to mow under than single stem", "Can develop weak crotch angles"] },
 
-  { slug: "magnolia-leonard-messel", name: "Leonard Messel Magnolia",
+  { slug: "magnolia-leonard-messel", imageSource: "wikimedia", name: "Leonard Messel Magnolia",
     sizes: ["6'"], prices: ["$165"],
     category: "Deciduous", type: "Ornamental Tree",
     height: "15-20 ft", spread: "12-15 ft",
@@ -304,7 +304,7 @@ export const trees = [
     pros: ["Stunning pink star-shaped April blooms", "Hardier than saucer magnolia", "Compact size suits smaller gardens", "Buds are more frost-resistant than other magnolias"],
     cons: ["Late freeze can still ruin annual bloom", "Slow growing—patience required", "Needs slightly acidic soil (test first)", "Limited fall color"] },
 
-  { slug: "magnolia-merrill", name: "Merrill Magnolia",
+  { slug: "magnolia-merrill", imageSource: "wikimedia", name: "Merrill Magnolia",
     sizes: ["6'"], prices: ["$165"],
     category: "Deciduous", type: "Ornamental Tree",
     height: "20-25 ft", spread: "15-20 ft",
@@ -317,7 +317,7 @@ export const trees = [
     pros: ["One of hardiest magnolias for WI (Zone 4)", "Profuse fragrant white blooms", "More vigorous than Leonard Messel", "Reliable bloomer in cold climates"],
     cons: ["Bloom can still be lost to late frost", "Needs acidic soil for best performance", "Medium-large size needs space", "Subtle fall color"] },
 
-  { slug: "magnolia-royal-star", name: "Royal Star Magnolia",
+  { slug: "magnolia-royal-star", imageSource: "wikimedia", name: "Royal Star Magnolia",
     sizes: ["6'"], prices: ["$165"],
     category: "Deciduous", type: "Ornamental Tree",
     height: "10-15 ft", spread: "10-15 ft",
@@ -330,7 +330,7 @@ export const trees = [
     pros: ["Most reliable magnolia bloom for WI", "Compact—fits foundation plantings", "Profuse fragrant white star flowers", "Slow growth = easy to manage"],
     cons: ["Very early bloom highly vulnerable to late frost", "Slow growth = patient investment", "Needs acidic soil", "Brown petals after frost = ugly cleanup"] },
 
-  { slug: "river-birch", name: "River Birch Multi Stem",
+  { slug: "river-birch", imageSource: "original", name: "River Birch Multi Stem",
     sizes: ["12'"], prices: ["$250"],
     category: "Deciduous", type: "Shade Tree",
     height: "40-70 ft", spread: "40-60 ft",
@@ -343,7 +343,7 @@ export const trees = [
     pros: ["Stunning peeling cinnamon-salmon bark year-round", "Highly resistant to bronze birch borer", "Thrives in wet/low spots", "Native—wildlife value"],
     cons: ["Drops twigs and small branches constantly", "Chlorosis (yellowing) common in alkaline soil", "Large mature size—needs space", "Aphid drip stains cars/decks beneath"] },
 
-  { slug: "whitespire-birch", name: "Whitespire Birch Multi Stem",
+  { slug: "whitespire-birch", imageSource: "original", name: "Whitespire Birch Multi Stem",
     sizes: ["12'"], prices: ["$210"],
     category: "Deciduous", type: "Ornamental Tree",
     height: "30-40 ft", spread: "15-20 ft",
@@ -356,7 +356,7 @@ export const trees = [
     pros: ["Classic white bark = striking specimen", "Better borer resistance than paper birch", "Smaller scale than river birch", "Multi-stem cluster is dramatic focal point"],
     cons: ["Still vulnerable to borer in stressed conditions", "Avoid dry south-facing spots", "Shorter-lived than other birches (30-40 yrs)", "Can drop branches in heavy snow"] },
 
-  { slug: "royal-raindrop-crabapple", name: "Royal Raindrop Crabapple",
+  { slug: "royal-raindrop-crabapple", imageSource: "wikimedia", name: "Royal Raindrop Crabapple",
     sizes: ["2-2½\""], prices: ["$175"],
     category: "Deciduous", type: "Ornamental Tree",
     height: "15-20 ft", spread: "15-20 ft",
@@ -369,7 +369,7 @@ export const trees = [
     pros: ["True four-season interest (bloom/foliage/fruit/winter)", "Excellent disease resistance (apple scab, fire blight)", "Tiny persistent fruit feeds birds", "Purple foliage is dramatic"],
     cons: ["Persistent fruit can stain pavement/cars", "Susceptible to Japanese beetles", "Suckers from rootstock need pruning", "Fruit drop creates lawn cleanup"] },
 
-  { slug: "pink-spire-crabapple", name: "Pink Spire Crabapple",
+  { slug: "pink-spire-crabapple", imageSource: "wikimedia", name: "Pink Spire Crabapple",
     sizes: ["2-2½\""], prices: ["$165"],
     category: "Deciduous", type: "Ornamental Tree",
     height: "18-20 ft", spread: "10-12 ft",
@@ -382,7 +382,7 @@ export const trees = [
     pros: ["Narrow columnar habit—tight spaces", "Pink-rose blooms + purple foliage", "Good disease resistance", "Affordable price point"],
     cons: ["Less disease resistant than Royal Raindrop", "Older cultivar—newer options outperform", "Can be susceptible to apple scab in wet years", "Smaller bloom display than rounder forms"] },
 
-  { slug: "gladiator-crabapple", name: "Gladiator Crabapple",
+  { slug: "gladiator-crabapple", imageSource: "original", name: "Gladiator Crabapple",
     sizes: ["2-2½\""], prices: ["$165"],
     category: "Deciduous", type: "Ornamental Tree",
     height: "18-20 ft", spread: "8-10 ft",
@@ -395,7 +395,7 @@ export const trees = [
     pros: ["Tightest columnar footprint of any crabapple", "Perfect for formal symmetrical plantings", "Strong disease resistance", "Persistent tiny fruit"],
     cons: ["Very formal look may not suit naturalistic landscapes", "Limited shade due to narrow form", "Premium pricing for newer cultivar", "Can outgrow tight pruning needs"] },
 
-  { slug: "dwarf-korean-lilac", name: "Dwarf Korean Lilac on Standard",
+  { slug: "dwarf-korean-lilac", imageSource: "wikimedia", name: "Dwarf Korean Lilac on Standard",
     sizes: ["30\" Head"], prices: ["$190"],
     category: "Deciduous", type: "Ornamental Tree",
     height: "5-7 ft (grafted)", spread: "4-6 ft",
@@ -408,7 +408,7 @@ export const trees = [
     pros: ["Elegant lollipop form—formal accent piece", "Highly fragrant traditional lilac scent", "Drought-tolerant once established", "Minimal maintenance pruning"],
     cons: ["Graft union vulnerable to winter damage", "Suckers from rootstock need vigilant removal", "Short-lived compared to non-grafted lilacs (15-25 yrs)", "Top can split off graft in heavy snow"] },
 
-  { slug: "tinkerbell-lilac", name: "Tinkerbell Lilac on Standard",
+  { slug: "tinkerbell-lilac", imageSource: "original", name: "Tinkerbell Lilac on Standard",
     sizes: ["30\" Head"], prices: ["$190"],
     category: "Deciduous", type: "Ornamental Tree",
     height: "5-7 ft (grafted)", spread: "4-5 ft",
@@ -421,7 +421,7 @@ export const trees = [
     pros: ["Delicate scale—charming patio specimen", "Pink buds open pale pink (gradient effect)", "Very fragrant in May", "Container-friendly"],
     cons: ["Same graft vulnerabilities as Korean standard", "Less impactful bloom than larger lilacs", "Requires more frequent watering than Korean", "Newer cultivar—less long-term proof"] },
 
-  { slug: "bloomerang-lilac", name: "Bloomerang Lilac on Standard",
+  { slug: "bloomerang-lilac", imageSource: "wikimedia", name: "Bloomerang Lilac on Standard",
     sizes: ["2\""], prices: ["$190"],
     category: "Deciduous", type: "Ornamental Tree",
     height: "5-7 ft (grafted)", spread: "4-6 ft",
@@ -434,7 +434,7 @@ export const trees = [
     pros: ["Reblooms summer-fall—rare for lilacs", "Strong purple color and classic fragrance", "Disease and mildew resistant", "Compact—fits tight spaces"],
     cons: ["Rebloom less prolific than spring flush", "Graft union risks in harsh winters", "Requires deadheading after first bloom", "Pricier than non-reblooming lilacs"] },
 
-  { slug: "apple-tree", name: "Apple Tree (Fuji, Gala, Red Delicious)",
+  { slug: "apple-tree", imageSource: "ai", name: "Apple Tree (Fuji, Gala, Red Delicious)",
     sizes: ["2\""], prices: ["$150"],
     category: "Deciduous", type: "Fruit Tree",
     height: "12-20 ft", spread: "12-20 ft",
@@ -447,7 +447,7 @@ export const trees = [
     pros: ["Fresh fruit harvest from your own property", "Beautiful spring bloom (white-pink)", "Wildlife value (pollinators, birds, deer)", "Edible landscape integration"],
     cons: ["Requires spray program for clean fruit", "Need 2+ varieties for pollination", "Apple maggot, scab, fire blight all common", "Fallen fruit attracts wasps and rodents"] },
 
-  { slug: "panicle-hydrangea", name: "Panicle Hydrangea Tree",
+  { slug: "panicle-hydrangea", imageSource: "original", name: "Panicle Hydrangea Tree",
     sizes: ["5'"], prices: ["$125"],
     category: "Deciduous", type: "Ornamental Tree",
     height: "6-10 ft", spread: "6-8 ft",
@@ -460,7 +460,7 @@ export const trees = [
     pros: ["Reblooming from July through frost", "Bloom on new wood—immune to spring frost loss", "Very cold-hardy (Zone 3)", "Most affordable specimen at $125"],
     cons: ["Heavy bloom heads can split graft in storms", "Annual hard pruning required for best bloom", "Tree-form less stable than shrub form", "Persistent dried heads can look messy in spring"] },
 
-  { slug: "white-spruce", name: "White Spruce",
+  { slug: "white-spruce", imageSource: "original", name: "White Spruce",
     sizes: ["6-7'"], prices: ["$250"],
     category: "Evergreen", type: "Evergreen Tree",
     height: "40-60 ft", spread: "15-25 ft",
@@ -473,7 +473,7 @@ export const trees = [
     pros: ["Native to WI—wildlife and ecological value", "More drought-tolerant than Norway Spruce", "Excellent dense year-round screening", "Tolerates exposed/windy lakefront sites"],
     cons: ["Crushed needles smell unpleasant ('cat urine')", "Susceptible to spruce gall adelgid", "Slower growth than Norway", "Lower branches can die out in shade"] },
 
-  { slug: "norway-spruce", name: "Norway Spruce",
+  { slug: "norway-spruce", imageSource: "original", name: "Norway Spruce",
     sizes: ["6-7'"], prices: ["$250"],
     category: "Evergreen", type: "Evergreen Tree",
     height: "40-60 ft", spread: "20-30 ft",
@@ -486,7 +486,7 @@ export const trees = [
     pros: ["Fastest-growing large evergreen for screening", "Distinctive graceful pendulous branches", "Largest cones of any spruce—decorative", "Long-lived (100+ years possible)"],
     cons: ["Non-native—lower wildlife value", "Susceptible to needlecast diseases", "Lower branches die out in shade as it ages", "Massive at maturity—plan space carefully"] },
 
-  { slug: "white-pine", name: "White Pine",
+  { slug: "white-pine", imageSource: "wikimedia", name: "White Pine",
     sizes: ["6-7'"], prices: ["$250"],
     category: "Evergreen", type: "Evergreen Tree",
     height: "50-80 ft", spread: "20-40 ft",
@@ -499,7 +499,7 @@ export const trees = [
     pros: ["Softest, most graceful large evergreen", "Native—high wildlife and ecological value", "Fast growth—shade quickly", "Tolerates partial shade"],
     cons: ["Highly sensitive to road/de-icing salt", "Susceptible to white pine blister rust", "Branch breakage in heavy snow/ice", "Drops needles annually—cleanup required"] },
 
-  { slug: "techny-arborvitae", name: "Techny Arborvitae",
+  { slug: "techny-arborvitae", imageSource: "original", name: "Techny Arborvitae",
     sizes: ["6'"], prices: ["$100"],
     category: "Evergreen", type: "Evergreen Shrub/Tree",
     height: "10-15 ft", spread: "5-8 ft",
@@ -519,3 +519,11 @@ export const sunFilters = ["All Sun", "Full Sun", "Full Sun to Partial Shade"];
 export function imagePath(tree) {
   return `/trees/${tree.slug}.jpg`;
 }
+
+// imageSource: "original" — supplied by Goetz's Nursery (true product photography)
+//              "ai"       — AI-rendered illustrative image
+//              "wikimedia" — CC-licensed reference photo, pending replacement
+export const imageSourceCounts = trees.reduce((acc, t) => {
+  acc[t.imageSource] = (acc[t.imageSource] || 0) + 1;
+  return acc;
+}, {});
