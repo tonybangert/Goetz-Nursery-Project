@@ -44,7 +44,7 @@ export const trees = [
     pros: ["Very cold-hardy (Zone 3)—safe for severe WI winters", "Seedless—no messy samaras to clean up", "Compact upright form fits tight spaces", "Reliable deep red fall color"],
     cons: ["Slower growth than other Freeman maples", "Smaller mature size limits shade coverage", "Less drought tolerant than Autumn Blaze", "Narrower canopy = less shade per tree"] },
 
-  { slug: "autumn-fantasy-maple", imageSource: "wikimedia", name: "Autumn Fantasy Maple",
+  { slug: "autumn-fantasy-maple", imageSource: "ai", name: "Autumn Fantasy Maple",
     sizes: ["2-2½\""], prices: ["$250"],
     category: "Deciduous", type: "Shade Tree",
     height: "40-45 ft", spread: "30-35 ft",
