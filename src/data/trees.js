@@ -421,7 +421,7 @@ export const trees = [
     pros: ["Delicate scale—charming patio specimen", "Pink buds open pale pink (gradient effect)", "Very fragrant in May", "Container-friendly"],
     cons: ["Same graft vulnerabilities as Korean standard", "Less impactful bloom than larger lilacs", "Requires more frequent watering than Korean", "Newer cultivar—less long-term proof"] },
 
-  { slug: "bloomerang-lilac", imageSource: "wikimedia", name: "Bloomerang Lilac on Standard",
+  { slug: "bloomerang-lilac", imageSource: "ai", name: "Bloomerang Lilac on Standard",
     sizes: ["2\""], prices: ["$190"],
     category: "Deciduous", type: "Ornamental Tree",
     height: "5-7 ft (grafted)", spread: "4-6 ft",
