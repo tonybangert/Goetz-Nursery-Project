@@ -213,7 +213,7 @@ export const trees = [
     pros: ["Highest DED resistance among elms", "Excellent wet soil tolerance", "Broader canopy = more shade", "Less prone to phloem necrosis"],
     cons: ["Less classic vase shape than Princeton", "Asian hybrid—less native value", "Can have weaker branch attachments", "Newer cultivar—less long-term track record"] },
 
-  { slug: "autumn-blaze-pear", imageSource: "wikimedia", name: "Autumn Blaze Pear",
+  { slug: "autumn-blaze-pear", imageSource: "ai", name: "Autumn Blaze Pear",
     sizes: ["2-3\""], prices: ["$210"],
     category: "Deciduous", type: "Ornamental Tree",
     height: "25-30 ft", spread: "15-20 ft",
