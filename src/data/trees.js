@@ -70,7 +70,7 @@ export const trees = [
     pros: ["Stronger branch attachment than Autumn Blaze", "Glossy summer foliage looks premium", "Brilliant fiery red-orange fall display", "Improved structural integrity over older Freemans"],
     cons: ["Less proven long-term than older cultivars", "Premium pricing at most nurseries", "Limited availability—newer introduction", "Still inherits some silver maple weaknesses"] },
 
-  { slug: "celebration-maple", imageSource: "wikimedia", name: "Celebration Maple",
+  { slug: "celebration-maple", imageSource: "ai", name: "Celebration Maple",
     sizes: ["2-2½\""], prices: ["$250"],
     category: "Deciduous", type: "Shade Tree",
     height: "35-45 ft", spread: "15-25 ft",
